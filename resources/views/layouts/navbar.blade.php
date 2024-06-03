@@ -1,4 +1,4 @@
-<header class="header ">
+<header class="header">
     <div class="px-5 py-3 border-solid border-b border-gray-600">
         <div class="flex justify-between">
             <div class="logo">
