@@ -19,13 +19,13 @@
             @include('layouts.navbar')
             <!-- Page Heading -->
 
-            <div class="h-full lg:ml-72 xl:ml-80">
+            <div class="h-full">
                 <!-- side menu -->
                 @include('layouts.sidebar')
                 <!-- side menu -->            
 
                 <!-- Page Content -->
-                <main class="relative flex h-full flex-col px-4 pt-14 sm:px-6 lg:px-8">
+                <main class="main flex w-full lg:pl-72">
                     {{ $slot }}
                 </main>
             </div>
