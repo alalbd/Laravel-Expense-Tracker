@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer utilities {
     .border-b-1 {
         border-bottom: 1px solid;
+    }
+    .sideBar {
+        transition: all .3s ease-in-out;
+    }
+    .sideBar.opacity-0 {
+        overflow: hidden;
+        height: 0;
+    }
+    .sideBar.opacity-100 {
+        height: 100%;
     }
 }

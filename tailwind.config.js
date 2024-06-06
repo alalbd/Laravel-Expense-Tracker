@@ -23,6 +23,9 @@ export default {
                 whiteTrue: {
                     100: "#f1f1f2",
                 },
+                semiwhite: {
+                    100: "rgb(161 161 170)",
+                }
             },
 
             fontFamily: {
