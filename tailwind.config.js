@@ -15,17 +15,19 @@ export default {
             colors: {
                 main: {
                     100: "#18181b",
-                    200: "#333",
+                    200: 'var(--color-main)',
+                    300: 'var(--color-semidark)',
                 },
                 greenTrue: {
-                    100: "#34d399",
+                    100: 'var(--color-green)',
                 },
                 whiteTrue: {
-                    100: "#f1f1f2",
+                    100: 'var(--color-white)',
                 },
                 semiwhite: {
-                    100: "rgb(161 161 170)",
-                }
+                    100: 'var(--color-semiwhite)',
+                },
+
             },
 
             fontFamily: {

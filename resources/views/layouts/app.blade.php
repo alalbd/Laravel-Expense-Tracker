@@ -26,7 +26,11 @@
 
                 <!-- Page Content -->
                 <main class="main flex w-full lg:pl-72">
-                    {{ $slot }}
+                    <div class="area mt-12 p-10">
+                        <div class="workingarea">
+                        {{ $slot }}
+                        </div>
+                    </div>
                 </main>
             </div>
             
