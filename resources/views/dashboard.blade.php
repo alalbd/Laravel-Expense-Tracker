@@ -10,8 +10,8 @@
         <!-- breadcrumb -->
         <!-- content -->
         <div class="flex justify-between">
-            <div class="card pr-5 w-full">
-                <div class="p-5 bg-main-200 rounded-lg shadow-lg border border-main-300">
+            <div class=" pr-5 w-full">
+                <div class="card p-5 bg-main-200 rounded-lg shadow-lg border border-main-300">
                     <div class="card-header pb-10">
                         <div class="text-md font-serif uppercase text-semiwhite-100">
                             Expense
@@ -56,8 +56,8 @@
                 </div>
             </div>
 
-            <div class="card pl-5 w-full">
-                <div class="p-5 bg-main-200 rounded-lg shadow-lg border border-main-300">
+            <div class="pl-5 w-full">
+                <div class="card p-5 bg-main-200 rounded-lg shadow-lg border border-main-300">
                     <div class="card-header pb-10">
                         <div class="text-md font-serif uppercase text-semiwhite-100">
                             Expense
