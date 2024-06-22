@@ -6,21 +6,35 @@
     :root {
         --color-white: #f1f1f2;
         --color-semiwhite: #a1a1aa;
-        --color-secondary: 111 114 185;
+        --color-grayWhite: #a1b0cb;
         --color-green: #34d399;
         --color-dark: #23262b;
-        --color-main:#1d1e24;
-        --color-semidark:#434956;
+        --color-main: #1d1e24;
+        --color-semidark: #434956;
     }
 }
-
 
 @layer components {
     .navbtn {
         @apply px-4 py-1 font-serif font-medium text-base transition duration-200 ease-in-out;
-    } 
+    }
     .navbtnColor {
         @apply text-semiwhite-100 hover:bg-main-200 hover:text-whiteTrue-100;
+    }
+    .card {
+        @apply p-5 bg-main-200 rounded-lg shadow-lg border border-main-300;
+    }
+    .input {
+        @apply bg-transparent w-full my-3 py-3 text-semiwhite-100 border border-main-300 rounded-md shadow-md placeholder:text-semiwhite-100 focus:outline-none focus:border-greenTrue-100 focus:ring-greenTrue-100 focus:ring-1 focus:place-content-start transition duration-200;
+    }
+    .btn {
+        @apply text-base font-serif uppercase py-3 px-8 rounded-md cursor-pointer hover:shadow-sm hover:shadow-gray-600 transition duration-200;
+    }
+    .btn-success {
+        @apply text-main-200 bg-greenTrue-100;
+    }
+    .btn-main {
+        @apply text-whiteTrue-100 bg-main-300;
     }
 }
 
@@ -36,9 +50,25 @@
         height: 0;
         visibility: hidden;
     }
-    .sideBar.show{height: 96px;}
-    .navside.active a.expendarea{color: var(--color-green);}
-    .navside a.expendarea .arrowto:before{content: "";position: relative;top: 8px;width: 8px;height: 8px;border-right: 2px solid rgb(161 161 170);border-bottom: 2px solid rgb(161 161 170);transform: rotate(-45deg);float: right; transition: 300ms;} 
-    .navside.active a.expendarea .arrowto:before{transform: rotate(45deg);}
-
+    .sideBar.show {
+        height: 96px;
+    }
+    .navside.active a.expendarea {
+        color: var(--color-green);
+    }
+    .navside a.expendarea .arrowto:before {
+        content: "";
+        position: relative;
+        top: 8px;
+        width: 8px;
+        height: 8px;
+        border-right: 2px solid rgb(161 161 170);
+        border-bottom: 2px solid rgb(161 161 170);
+        transform: rotate(-45deg);
+        float: right;
+        transition: 300ms;
+    }
+    .navside.active a.expendarea .arrowto:before {
+        transform: rotate(45deg);
+    }
 }

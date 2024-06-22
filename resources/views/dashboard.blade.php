@@ -1,8 +1,16 @@
 <x-app-layout>
 
     <div class="content">
+        <!-- breadcrumb -->
+        <div class="flex justify-normal">
+            <div class="text-lg font-semibold text-whiteTrue-100 uppercase pb-5">
+                Dashboard
+            </div>
+        </div>
+        <!-- breadcrumb -->
+        <!-- content -->
         <div class="flex justify-between">
-            <div class="card pr-5">
+            <div class="card pr-5 w-full">
                 <div class="p-5 bg-main-200 rounded-lg shadow-lg border border-main-300">
                     <div class="card-header pb-10">
                         <div class="text-md font-serif uppercase text-semiwhite-100">
@@ -48,7 +56,7 @@
                 </div>
             </div>
 
-            <div class="card pl-5">
+            <div class="card pl-5 w-full">
                 <div class="p-5 bg-main-200 rounded-lg shadow-lg border border-main-300">
                     <div class="card-header pb-10">
                         <div class="text-md font-serif uppercase text-semiwhite-100">
@@ -95,5 +103,6 @@
             </div>
 
         </div>
+        <!-- content -->
     </div>
 </x-app-layout>
